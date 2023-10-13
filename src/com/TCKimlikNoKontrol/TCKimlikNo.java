@@ -44,7 +44,7 @@ public class TCKimlikNo {
 		int OnuncuRakamCiftTop=0;
 		
 		for (int i = 0; i < 9; i++) {
-			if (i==0 || i%2==0) {
+			if (i%2==0) {
 				OnuncuRakamTekTop += TCRakamlar[i];
 			} else {
 				OnuncuRakamCiftTop += TCRakamlar[i];
